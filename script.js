@@ -3,7 +3,6 @@
 // Background Colours
 const collection = document.querySelectorAll(".box");
 let colours = ['red','blue','green','yellow','cyan','orange', 'BlueViolet', 'Turquoise', 'Teal', 'BlanchedAlmond', 'DarkBlue','DarkSalmon','DeepPink', 'Indigo','SeaGreen',  ];
-// Adding Sound 
 
 
 // Picking a background colour
@@ -13,8 +12,6 @@ for (let i = 0; i < collection.length; i++) {
 };
 
 // On Click
-
-
 
 window.addEventListener("load", ()=>{
     const sound = document.querySelectorAll(".sound");
