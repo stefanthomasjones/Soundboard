@@ -1,5 +1,3 @@
-
-
 // Background Colours
 const collection = document.querySelectorAll(".box");
 let colours = ['red','blue','green','yellow','cyan','orange', 'BlueViolet', 'Turquoise', 'Teal', 'BlanchedAlmond', 'DarkBlue','DarkSalmon','DeepPink', 'Indigo','SeaGreen',  ];
@@ -26,7 +24,6 @@ window.addEventListener("load", ()=>{
     })
 })
 
-
 // keydown
 
 keys = ['a', 's', 'd', 'f', 'g', 'z', 'x', 'c', 'v']
@@ -36,8 +33,7 @@ document.addEventListener('keydown', e => {
     const key = e.key
     const keyIdx = keys.indexOf(key)
     
-    if (keyIdx > -1) sounds[keyIdx].play()
-    
+    if (keyIdx > -1) sounds[keyIdx].play() 
 })
 
 
