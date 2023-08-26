@@ -4,10 +4,10 @@ let colours = ['red','blue','green','yellow','cyan','orange', 'BlueViolet', 'Tur
 
 
 // Picking a background colour
-// for (let i = 0; i < collection.length; i++) {
-   //  ramColor =  Math.floor(Math.random()*colours.length);
-  //  collection[i].style.backgroundColor = colours[ramColor];
-// };
+ for (let i = 0; i < collection.length; i++) {
+  ramColor =  Math.floor(Math.random()*colours.length);
+    collection[i].style.backgroundColor = colours[ramColor];
+ };
 
 // On Click
 
@@ -29,19 +29,14 @@ window.addEventListener("load", ()=>{
 keys = ['a', 's', 'd', 'f', 'g', 'z', 'x', 'c', 'v']
 
 const sounds = document.querySelectorAll(".sound");
+const containers = document.querySelectorAll(".box");
 document.addEventListener('keydown', e => {
+    
     const key = e.key
     const keyIdx = keys.indexOf(key)
-    
-<<<<<<< Updated upstream
     if (keyIdx > -1) sounds[keyIdx].play() 
-})
-=======
-    if (keyIdx > -1) sounds[keyIdx].play()
     
-});
->>>>>>> Stashed changes
-
+})
 
 
 
