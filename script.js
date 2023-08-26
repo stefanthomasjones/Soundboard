@@ -34,8 +34,7 @@ document.addEventListener('keydown', e => {
     
     const key = e.key
     const keyIdx = keys.indexOf(key)
-    if (keyIdx > -1) sounds[keyIdx].play() 
-    
+    if (keyIdx > -1) sounds[keyIdx].play()  
 })
 
 
